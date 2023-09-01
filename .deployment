@@ -1,0 +1,4 @@
+[config]
+command = bash deploy.sh
+WEBSITE_NODE_DEFAULT_VERSION = 14.15.0
+# WEBSITE_PORT = 8080
