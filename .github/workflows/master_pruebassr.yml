@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 'node|14.15.0'
 
-      - name: npm install, build, and test
+      - name: npm install, build:ssr, and test
         run: |
           npm install
           npm run build --if-present
